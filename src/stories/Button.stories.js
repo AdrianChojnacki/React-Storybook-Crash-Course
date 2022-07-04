@@ -14,3 +14,31 @@ Red.args = {
   label: "Press me",
   size: "md",
 };
+
+export const Green = Template.bind({});
+Green.args = {
+  backgroundColor: "green",
+  label: "Press me",
+  size: "md",
+};
+
+export const Small = Template.bind({});
+Small.args = {
+  backgroundColor: "red",
+  label: "Press me",
+  size: "sm",
+};
+
+export const Large = Template.bind({});
+Large.args = {
+  backgroundColor: "red",
+  label: "Press me",
+  size: "lg",
+};
+
+export const LongLabel = Template.bind({});
+LongLabel.args = {
+  backgroundColor: "red",
+  label: "This is a very long label for a button component",
+  size: "md",
+};
